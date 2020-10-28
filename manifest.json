@@ -3,7 +3,8 @@
     {
       "id": "pokko-starter-blog",
       "name": "Basic blog",
-      "description": "A basic blog with site structure laid and some dummy content."
+      "description": "A basic blog with site structure laid and some dummy content.",
+      "manifest": "https://raw.githubusercontent.com/pokkocms/starters/main/pokko-starter-blog/manifest.json"
     }
   ]
 }

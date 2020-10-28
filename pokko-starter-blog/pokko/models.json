@@ -1,0 +1,36 @@
+{
+  "models": {
+    "4a4f0858-d8db-4c52-9159-bf18f1cfb8a2": {
+      "name": "Article",
+      "alias": "Article",
+      "usage": "ENTRY",
+      "parents": [],
+      "fields": {
+        "609303fc-3c71-47f9-a6fb-3ce63d145d24": {
+          "name": "Title",
+          "alias": "title",
+          "config": { "type": "text" },
+          "type": "SCALAR"
+        },
+        "f0178990-6227-497c-b10e-e8a80549119b": {
+          "name": "Alias",
+          "alias": "alias",
+          "config": { "type": "text" },
+          "type": "SCALAR"
+        },
+        "cacdcdcc-67ce-4179-916a-3eeee811886f": {
+          "name": "Date",
+          "alias": "date",
+          "config": { "type": "date" },
+          "type": "SCALAR"
+        },
+        "e512af0e-555c-43de-812c-8c4d29bd52dd": {
+          "name": "Body",
+          "alias": "body",
+          "config": { "type": "text", "multiline": true },
+          "type": "SCALAR"
+        }
+      }
+    }
+  }
+}
